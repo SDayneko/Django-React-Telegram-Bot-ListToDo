@@ -10,3 +10,13 @@ pip install djangorestframework django-cors-headers
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
+
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/SDayneko/Django-React-Telegram-Bot-ListToDo.git
+git push --set-upstream origin main
+
+next time:
+git commit -a -m "Create react" (add and message)
+git push
